@@ -1,0 +1,36 @@
+# Java build output
+out/
+*.class
+*.jar
+*.war
+
+# IntelliJ IDEA local state (machine-specific, changes constantly)
+.idea/
+*.iws
+*.ipr
+
+# Keep the module definition (- committed on purpose)
+!basic-code.iml
+
+# Eclipse / NetBeans
+.classpath
+.project
+.settings/
+bin/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (for later stages)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
